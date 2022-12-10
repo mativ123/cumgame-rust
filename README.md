@@ -1,2 +1,2 @@
 # Cumgame Rust
-A flask server running a wasm written in rust to run a idle game
+A flask server running wasm written in rust to run a idle game
