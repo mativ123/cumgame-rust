@@ -1,2 +1,2 @@
 # Cumgame Rust
-A web based game written in rust and compiled to wasm
+A flask server running a wasm written in rust to run a idle game
