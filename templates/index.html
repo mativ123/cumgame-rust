@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>web asembly test</title>
+    </head>
+    <body>
+        <script type="module">
+            import init, { greet } from "{{ url_for('static', filename='pkg/cumgame_rust.js') }}";
+            init().then(() => {
+                greet("Mathias")
+            })
+        </script>
+    </body>
+</html>
